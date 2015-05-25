@@ -1,3 +1,4 @@
-app:
-    resource: "@AppBundle/Controller/"
-    type:     annotation
+hotspot:
+    resource: "@HotspotBundle/Resources/config/routing.yml"
+    prefix:   /
+
